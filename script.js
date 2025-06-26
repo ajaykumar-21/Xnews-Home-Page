@@ -9,3 +9,13 @@ openBtn.addEventListener("click", () => {
 closeBtn.addEventListener("click", () => {
   menu.classList.remove("open");
 });
+
+window.addEventListener("load", () => {
+  const heroImg = document.getElementById("hero-image");
+
+  if (window.innerWidth < 1000) {
+    heroImg.src = "assets/image-web-3-mobile.jpg";
+  } else {
+    heroImg.src = "assets/image-web-3-desktop.jpg";
+  }
+});
