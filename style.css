@@ -16,13 +16,13 @@ body {
   align-items: center;
 }
 
-.nav-items {
+.nav-itmes {
   display: flex;
   list-style: none;
   gap: 1rem;
 }
 
-.nav-items a {
+.nav-itmes a {
   text-decoration: none;
   color: black;
 }
@@ -86,7 +86,7 @@ footer {
 
 /* Responsive */
 @media (max-width: 768px) {
-  .nav-items {
+  .nav-itmes {
     display: none;
     flex-direction: column;
     gap: 1rem;
@@ -97,7 +97,7 @@ footer {
     padding: 1rem;
   }
 
-  nav.open .nav-items {
+  nav.open .nav-itmes {
     display: flex;
   }
 
